@@ -5,13 +5,13 @@ class InicioWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Center(child: Column(
-       mainAxisAlignment: MainAxisAlignment.center,
+    return Center(
+        child: Column(
+      mainAxisAlignment: MainAxisAlignment.center,
       children: [
-        const Icon(Icons.home, size:50.0),
+        const Icon(Icons.home, size: 50.0),
         Text("Inicio", style: Theme.of(context).textTheme.headline4)
       ],
-
     ));
   }
 }
